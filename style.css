@@ -1,0 +1,20 @@
+/* Ерөнхий */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+body {
+    background-image: linear-gradient(
+        rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)
+    ), url(/back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
